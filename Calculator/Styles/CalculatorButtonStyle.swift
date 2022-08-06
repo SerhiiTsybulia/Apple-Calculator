@@ -31,7 +31,7 @@ struct CalculatorButtonStyle: ButtonStyle {
 }
 
 struct CalculatorButtonStyle_Previews: PreviewProvider {
-    static let buttonType: ButtonType = .digit(.four)
+    static let buttonType: ButtonType = .digit(.nine)
     
     static var previews: some View {
         Button(buttonType.description) { }
